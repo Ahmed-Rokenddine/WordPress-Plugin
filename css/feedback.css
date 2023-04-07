@@ -1,0 +1,43 @@
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+input,
+textarea,select {
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #000000;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-align: center;
+}
+.success {
+  text-align: center;
+  background-color: rgb(24, 195, 135);
+  cursor: pointer;
+  color: #1ebe36;
+}
+.success:hover {
+  background-color: rgb(49, 121, 54);
+  transition: ease-in 0.15s;
+}
+
+input:focus,
+textarea:focus,select:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(4, 23, 44, 0.25);
+  outline: none;
+  text-align: center;
+}
